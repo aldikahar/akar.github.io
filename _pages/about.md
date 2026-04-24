@@ -195,6 +195,13 @@ I have a strong interest in software engineering, cloud computing, cybersecurity
   font-size: 12px;
   line-height: 1.25;
 }
+  .author__avatar img {
+  width: 180px !important;
+  height: 180px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  object-position: center top !important;
+}
 
 @media (max-width: 900px) {
   .timeline-container {
