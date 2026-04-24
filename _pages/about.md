@@ -1,56 +1,210 @@
 ---
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+layout: single
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+title: "Aldi Kahar Ramadhan / Software Engineer"
+permalink: /
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am a software engineer with professional experience in application development, system integration, and IT infrastructure. Currently, I work as a Pranata Komputer (Computer Specialist) at Kejaksaan Agung, where I focus on building and maintaining systems that support data interoperability and digital transformation in the judicial environment.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My work primarily involves developing and deploying Application Programming Interfaces (API), managing distributed systems, and ensuring seamless integration between internal applications such as the Sistem Pertukaran Data Perkara Pidana Berbasis Teknologi Informasi (SPPT-TI). I am also involved in monitoring and supporting Case Management Systems (CMS) to ensure system reliability and operational efficiency.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Previously, I have gained hands-on experience in data center operations, incident management, network administration, and system support. I have worked with various technologies including Laravel framework, SQL databases, AWS Cloud, and networking (Cisco routing and switching). My background also includes experience in managing servers, infrastructure systems, and supporting mission-critical applications.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<div class="timeline-container">
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+  <div class="timeline-column">
+    <h2>Experience</h2>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div>
+          <h3>Pranata Komputer </h3>
+          <p>📍 Kejaksaan Agung </p>
+        </div>
+        <span>Sep 2023 - Present</span>
+      </div>
+    </div>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div>
+          <h3>Pranata Komputer</h3>
+          <p>📍 Kejaksaan Negeri Donggala</p>
+        </div>
+        <span>Feb 2021 - Aug 2023</span>
+      </div>
+    </div>
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div>
+          <h3>Major Incident Management</h3>
+          <p>📍 IBM JTI - Indosat Ooredoo</p>
+        </div>
+        <span>Dec 2019 - Nov 2020</span>
+      </div>
+    </div>
 
-**Markdown generator**
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div>
+          <h3>Data Center Operator</h3>
+          <p>📍 IBM JTI - Bank BTPN</p>
+        </div>
+        <span>Nov 2017 - Nov 2019</span>
+      </div>
+    </div>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div>
+          <h3>Laboratory Assistant</h3>
+          <p>📍 Universitas Gunadarma</p>
+        </div>
+        <span>Feb 2016 - Sep 2017</span>
+      </div>
+    </div>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+  </div>
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+  <div class="timeline-column">
+    <h2>Education</h2>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div>
+          <h3>MSc in Management Information System </h3>
+          <p>📍 Gunadarma University</p>
+        </div>
+        <span>Sep 2025 - present </span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div>
+          <h3>BSc in Computer System</h3>
+          <p>📍 Gunadarma University</p>
+        </div>
+        <span>Sep 2013 - Aug 2017</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+---
+
+I have a strong interest in software engineering, cloud computing, cybersecurity, and distributed systems. I am passionate about building reliable systems, improving system performance, and contributing to the development of scalable and maintainable IT solutions.
+
+
+<style>
+.timeline-container {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 32px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.timeline-column h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  gap: 24px;
+  padding-bottom: 12px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 22px;
+  bottom: -14px;
+  width: 2px;
+  background: #d7e6ff;
+}
+
+.timeline-item:last-child::before {
+  display: none;
+}
+
+.timeline-dot {
+  width: 18px;
+  height: 18px;
+  border: 3px solid #2f80ff;
+  border-radius: 50%;
+  background: #fff;
+  z-index: 2;
+  margin-top: 18px;
+  flex-shrink: 0;
+}
+
+.timeline-card {
+  width: 100%;
+  min-height: 68px;
+  border: 1px solid #e1e5ea;
+  border-radius: 8px;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  background: #fff;
+}
+
+.timeline-card > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.timeline-card h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+  white-space: normal;
+}
+
+.timeline-card p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  line-height: 1.3;
+  white-space: normal;
+}
+
+.timeline-card span {
+  color: #2f80ff;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+@media (max-width: 900px) {
+  .timeline-container {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-card {
+    flex-direction: column;
+  }
+}
+
+</style>
