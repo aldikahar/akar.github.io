@@ -5,7 +5,7 @@ title: ""
 permalink: /
 ---
 
-I am a software engineer with professional experience in application development, system integration, and IT infrastructure. Currently, I work as a Pranata Komputer (Computer Specialist) at Kejaksaan Agung, where I focus on building and maintaining systems that support data interoperability and digital transformation in the judicial environment.
+I am a software engineer with professional experience in application development, system integration, and IT infrastructure. Currently, I work as a Pranata Komputer at Kejaksaan Agung, where I focus on building and maintaining systems that support data interoperability and digital transformation in the judicial environment.
 
 My work primarily involves developing and deploying Application Programming Interfaces (API), managing distributed systems, and ensuring seamless integration between internal applications such as the Sistem Pertukaran Data Perkara Pidana Berbasis Teknologi Informasi (SPPT-TI). I am also involved in monitoring and supporting Case Management Systems (CMS) to ensure system reliability and operational efficiency.
 
